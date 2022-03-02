@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: dev-host-runner
+pool: Default
 strategy:
   matrix:
     Python27:
